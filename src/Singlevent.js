@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { doc, getDoc, updateDoc, arrayUnion } from "firebase/firestore";
+import { doc, getDoc } from "firebase/firestore";
 import { db } from './lib/firebase';
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect} from "react";
 
 
 
